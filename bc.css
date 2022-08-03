@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    background-color: black;
+    height: 100vh;
+}
+div.rec{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+}
+div.rc{
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+}
+div.cir{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 150px;
+    position: absolute;
+}

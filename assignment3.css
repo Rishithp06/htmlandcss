@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.left{
+ background-color: red;
+ width: 110vh;
+ height: 750px;
+ border: 2px solid red;
+}
+div.right{
+background-color: green;
+width: 110vh;
+display: flex;
+align-items: center;
+
+
+border: 2px solid green;
+}
+div.cc{
+    display: flex;
+    
+    
+}
+div.cir{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color:yellow;
+    margin-left: 40vh;
+    
+}
+div.box{
+    border: 3px solid brown;
+    height: 200px;
+    width: 200px;
+    
+}

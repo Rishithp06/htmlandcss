@@ -1,0 +1,57 @@
+header{height: 70px;
+    width: 100%;
+    display: flex;justify-content: space-between;
+    background-color: rgb(150, 150, 203);
+    align-items: center;
+    }
+    ul{display: flex;justify-content: space-between
+    ;
+    list-style: none;}
+    li{margin: 5px;}
+    
+    main{
+        min-height: 65vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+    
+    div.summary{
+        display: flex;
+    min-height: 50px;
+    width: 30%;
+     }
+    
+     footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+     select.s:hover{
+        background-color: blue;
+        color: chartreuse;
+        box-sizing: border-box;
+        border: 5px solid blue;
+     }
+     main{
+        display: flex;
+    
+    
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+     }
+     div{
+        display: flex;
+        border: 2px solid red;
+     }
+     /* i made changes right , i actually made changes in 
+     css for both 1 and contact 1 , you should have given classes 
+     for both while making changes of 1 or contact1, since
+      you didnt , the changes you made here is applied to both ,fml */
